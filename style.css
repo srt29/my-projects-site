@@ -89,3 +89,25 @@
   .email-link:hover {
     text-decoration: underline;
   }
+
+  @media (max-width:500px) {
+    img {
+        display: none;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    .primary-link {
+        display: flex;
+    }
+  }
+  
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
